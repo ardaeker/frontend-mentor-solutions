@@ -20,7 +20,7 @@ export default function Page() {
           <h1 className="text-2xl font-semibold leading-9 text-white">Jessica Randall</h1>
           <address className="text-sm font-bold not-italic text-[#C4F82A]">London, United Kingdom</address>
         </div>
-        <p className="text-sm text-white">"Front-end developer and avid reader."</p>
+        <p className="text-sm text-white">&quot;Front-end developer and avid reader.&quot;</p>
         <ul className="w-full space-y-4">
           <p className="sr-only">Social Links</p>
           {socials.map((item) => (
