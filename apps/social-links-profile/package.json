@@ -2,6 +2,11 @@
   "name": "social-links-profile",
   "version": "0.1.0",
   "private": true,
+  "author": {
+    "name": "Arda Eker",
+    "email": "ardaekereu@gmail.com",
+    "url": "https://github.com/ardaeker"
+  },
   "scripts": {
     "dev": "next dev",
     "build": "next build",
