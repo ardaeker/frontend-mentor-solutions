@@ -17,7 +17,7 @@ export const metadata: Metadata = {
   },
   keywords: ["nextjs", "tailwindcss", "frontend-mentor", "challenge"],
   openGraph: {
-    url: "#",
+    url: "https://fm-social-links-profile.vercel.app/",
     type: "profile",
     title: "Jessica Randall",
     description: "Front-end developer and avid reader.",
