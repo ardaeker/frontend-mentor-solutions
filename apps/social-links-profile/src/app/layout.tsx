@@ -4,6 +4,7 @@ import type { Metadata } from "next";
 import { Inter } from "next/font/google";
 
 import opengraphImage from "@/assets/images/avatar-jessica.jpeg";
+import { cn } from "@ardaeker/utilities";
 
 const inter = Inter({ subsets: ["latin"] });
 
@@ -37,7 +38,7 @@ export default function RootLayout({
 }>) {
   return (
     <html lang="en">
-      <body className={inter.className}>{children}</body>
+      <body className={cn("antialiased", inter.className)}>{children}</body>
     </html>
   );
 }
