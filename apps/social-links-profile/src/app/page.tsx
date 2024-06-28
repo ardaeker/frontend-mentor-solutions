@@ -22,7 +22,6 @@ export default function Page() {
         </div>
         <p className="text-sm text-white">&quot;Front-end developer and avid reader.&quot;</p>
         <ul className="w-full space-y-4">
-          <p className="sr-only">Social Links</p>
           {socials.map((item) => (
             <li key={item.id}>
               <a
