@@ -27,7 +27,7 @@ export default function Page() {
             <h1 className="font-fraunces mt-3 text-[2rem] font-bold leading-8 text-[#1C232B] sm:mt-5">
               Gabrielle Essence Eau De Parfum
             </h1>
-            <p className="font-montserrat mt-4 text-sm font-semibold leading-6 text-[#6C7289] sm:mt-6">
+            <p className="font-montserrat mt-4 text-sm font-medium leading-6 text-[#6C7289] sm:mt-6">
               A floral, solar and voluptuous interpretation composed by Oliver Polge, Perfumer-Creator for the House of
               CHANNEL.
             </p>
