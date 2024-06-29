@@ -13,7 +13,7 @@ export default function Page() {
             Learning
           </span>
           <p className="text-xs font-medium leading-[1.125rem] text-[#111111] sm:text-sm sm:leading-[1.3125rem]">
-            Published <time>21 Dec 2024</time>
+            Published <time dateTime="2024-12-21">21 Dec 2024</time>
           </p>
           <h1 className="inline-block text-xl font-extrabold leading-[1.875rem] text-[#111111] transition-colors duration-200 hover:text-[#F4D04E] sm:text-2xl sm:leading-9">
             <Link href="#">HTML & CSS foundations</Link>
