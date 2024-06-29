@@ -2,6 +2,8 @@
 import Image from "next/image";
 import { type SVGProps } from "react";
 
+import { cn } from "@ardaeker/utilities";
+
 import * as Accordion from "@radix-ui/react-accordion";
 
 import patternMobile from "@/assets/images/background-pattern-mobile.svg";
@@ -45,19 +47,19 @@ export default function Home() {
         loading="eager"
         className="absolute left-0 right-0 top-0 hidden max-h-60 w-full object-cover sm:block sm:max-h-80"
       />
-
+      <h1 className="sr-only">FAQs Accordion Component</h1>
       <section className="relative w-full max-w-[600px] rounded-lg bg-white p-6 shadow-[0px_32px_56px_0px_rgba(80,0,118,0.10)] sm:rounded-2xl sm:p-10">
         <div>
           <div className="flex items-center gap-x-6">
             <Star className="size-6 sm:size-10" />
-            <h1 className="text-[2rem] font-bold leading-[4.125rem] text-[#301534] sm:text-[3.5rem]">FAQs</h1>
+            <h2 className="text-[2rem] font-bold leading-[4.125rem] text-[#301534] sm:text-[3.5rem]">FAQs</h2>
           </div>
 
           <Accordion.Root type="single" defaultValue="0" collapsible className="mt-6 sm:mt-8">
             {faqs.map((faq, index) => (
               <div key={index}>
                 <Accordion.Item value={`${index}`}>
-                  <Accordion.Header className="my-5 sm:my-6">
+                  <Accordion.Header className={cn(faqs.length - 1 > index ? "my-5 sm:my-6" : "mt-5 sm:mt-6")}>
                     <Accordion.Trigger className="group flex w-full items-center justify-between text-start">
                       <span className="block text-base font-semibold leading-normal text-[#301534] transition-colors duration-200 group-hover:text-[#AD28EB] sm:text-lg sm:leading-[1.3125rem]">
                         {faq.question}
@@ -72,8 +74,8 @@ export default function Home() {
                       </span>
                     </Accordion.Trigger>
                   </Accordion.Header>
-                  <Accordion.Content className="data-[state=open]:animate-slideDown data-[state=closed]:animate-slideUp overflow-hidden text-sm leading-[1.3125rem] text-[#8B6990] sm:text-base">
-                    <p className="mb-5 sm:mb-6">{faq.answer}</p>
+                  <Accordion.Content className="overflow-hidden text-sm leading-[1.3125rem] text-[#8B6990] data-[state=closed]:animate-slideUp data-[state=open]:animate-slideDown sm:text-base">
+                    <p className={cn(faqs.length - 1 > index && "mb-5 sm:mb-6")}>{faq.answer}</p>
                   </Accordion.Content>
                 </Accordion.Item>
                 {faqs.length - 1 > index && <div className="h-px w-full bg-[#F8EEFF]" />}
