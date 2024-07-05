@@ -1,0 +1,21 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer base {
+  html,
+  body {
+    @apply h-full;
+  }
+
+  body {
+    @apply bg-[#E6EFF5];
+  }
+}
+
+@layer utilities {
+  .min-h-screen {
+    min-height: 100vh;
+    min-height: 100svh;
+  }
+}
