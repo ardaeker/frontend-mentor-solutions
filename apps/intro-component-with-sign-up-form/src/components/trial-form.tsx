@@ -17,10 +17,12 @@ import { useToast } from "@/components/ui/use-toast";
 const formSchema = z.object({
   firstName: z
     .string()
+    .trim()
     .min(1, { message: "First Name cannot be empty" })
     .max(50, { message: "First Name cannot be more than 50 characters" }),
   lastName: z
     .string()
+    .trim()
     .min(1, { message: "Last Name cannot be empty" })
     .max(50, { message: "Last Name cannot be more than 50 characters" }),
   email: z.string().email({ message: "Looks like this is not an email" }),
@@ -49,6 +51,7 @@ export function TrialForm() {
     // ✅ This will be type-safe and validated.
     toast(values);
     console.log(values);
+    form.reset();
   }
 
   return (
