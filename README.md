@@ -18,6 +18,7 @@ A collection of my solutions to Frontend Mentor challenges. All solutions are al
 | Product preview card component | [Live ↗](https://product-preview-card-component.ardaeker.com) | [View Code ↗](https://github.com/ardaeker/frontend-mentor-solutions/tree/main/apps/challenges/newbie/product-preview-card-component) |
 | Order summary component        | [Live ↗](https://order-summary-component.ardaeker.com)        | [View Code ↗](https://github.com/ardaeker/frontend-mentor-solutions/tree/main/apps/challenges/newbie/order-summary-component)        |
 | QR code component              | [Live ↗](https://qr-code-component.ardaeker.com)              | [View Code ↗](https://github.com/ardaeker/frontend-mentor-solutions/tree/main/apps/challenges/newbie/qr-code-component)              |
+| Social links profile           | [Live ↗](https://social-links-profile.ardaeker.com)           | [View Code ↗](https://github.com/ardaeker/frontend-mentor-solutions/tree/main/apps/challenges/newbie/social-links-profile)           |
 
 ## Getting Started
 
