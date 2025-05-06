@@ -1,0 +1,40 @@
+@import "tailwindcss";
+
+:root {
+  --background: #141414;
+  --foreground: #ffffff;
+}
+
+@theme {
+  --color-white: #ffffff;
+  --color-green: #c4f82a;
+
+  --color-gray-700: #333333;
+  --color-gray-800: #1f1f1f;
+  --color-gray-900: #141414;
+
+  --text-sm: 0.875rem;
+  --text-sm--line-height: 1.3125rem;
+
+  --text-2xl: 1.5rem;
+  --text-2xl--line-height: 2.25rem;
+}
+
+html,
+body {
+  color: var(--foreground);
+  background: var(--background);
+}
+
+@layer components {
+  .social-link {
+    @apply hover:bg-green block w-full text-nowrap rounded-lg bg-gray-700 p-3 text-sm font-bold transition-colors duration-200 hover:text-gray-700;
+  }
+}
+
+@layer utilities {
+  .min-h-screen {
+    min-height: 100vh;
+    min-height: 100dvh;
+  }
+}
