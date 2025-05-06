@@ -15,7 +15,8 @@ A collection of my solutions to Frontend Mentor challenges. All solutions are al
 
 | Challenge                      | Live Preview                                                   | Solution Code                                                                                                                         |
 | ------------------------------ | -------------------------------------------------------------- | ------------------------------------------------------------------------------------------------------------------------------------- |
-| Product Preview Card Component | [Live ↗](https://product-preview-card-component.ardaeker.com) | [View Code ↗](https://github.com/ardaeker/frontend-mentor-solutions/tree/main/apps/challenges/newbie/product-preview-card-component) |
+| Product preview card component | [Live ↗](https://product-preview-card-component.ardaeker.com) | [View Code ↗](https://github.com/ardaeker/frontend-mentor-solutions/tree/main/apps/challenges/newbie/product-preview-card-component) |
+| Order summary component        | [Live ↗](https://order-summary-component.ardaeker.com)        | [View Code ↗](https://github.com/ardaeker/frontend-mentor-solutions/tree/main/apps/challenges/newbie/order-summary-component)        |
 
 ## Getting Started
 
