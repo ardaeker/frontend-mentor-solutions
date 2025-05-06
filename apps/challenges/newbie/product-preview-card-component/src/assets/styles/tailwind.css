@@ -1,0 +1,25 @@
+@import "tailwindcss";
+
+@theme {
+  --color-gray: #6c7289;
+  --color-black: #1c232b;
+  --color-cream: #f2eae2;
+  --color-white: #ffffff;
+  --color-green-500: #3d8168;
+  --color-green-700: #1a4032;
+}
+
+@theme inline {
+  --font-fraunces: var(--font-fraunces);
+  --font-montserrat: var(--font-montserrat);
+}
+
+html,
+body {
+  height: 100%;
+}
+
+body {
+  color: var(--color-gray);
+  background-color: var(--color-cream);
+}

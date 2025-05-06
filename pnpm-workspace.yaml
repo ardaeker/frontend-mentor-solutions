@@ -1,0 +1,4 @@
+packages:
+  - "apps/challenges/newbie/*"
+  - "apps/starter"
+  - "packages/*"
