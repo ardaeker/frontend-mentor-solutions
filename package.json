@@ -1,6 +1,11 @@
 {
-  "name": "with-tailwind",
+  "name": "frontend-mentor-solutions",
+  "version": "0.0.0",
   "private": true,
+  "author": {
+    "name": "Arda Eker",
+    "email": "ardaekereu@gmail.com"
+  },
   "scripts": {
     "build": "turbo run build",
     "dev": "turbo run dev",
