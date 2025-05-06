@@ -28,7 +28,7 @@ export function ProductImage(props: ProductImageProps) {
 
   return (
     <div className="relative">
-      <div>
+      <div className={props.className}>
         <picture>
           <source media="(max-width: 640px)" srcSet={mobileSource} />
           <source media="(min-width: 641px)" srcSet={desktopSource} />
