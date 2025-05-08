@@ -1,6 +1,6 @@
 # Frontend Mentor Solutions
 
-A collection of my solutions to Frontend Mentor challenges. All solutions are also available on [Frontend Mentor ↗](https://www.frontendmentor.io/profile/ardaeker).
+A collection of my solutions to Frontend Mentor challenges.
 
 ## Table of Contents
 
@@ -13,12 +13,12 @@ A collection of my solutions to Frontend Mentor challenges. All solutions are al
 
 ## Completed Challenges
 
-| Challenge                      | Live Preview                                                   | Solution Code                                                                                                                         |
-| ------------------------------ | -------------------------------------------------------------- | ------------------------------------------------------------------------------------------------------------------------------------- |
-| Product preview card component | [Live ↗](https://product-preview-card-component.ardaeker.com) | [View Code ↗](https://github.com/ardaeker/frontend-mentor-solutions/tree/main/apps/challenges/newbie/product-preview-card-component) |
-| Order summary component        | [Live ↗](https://order-summary-component.ardaeker.com)        | [View Code ↗](https://github.com/ardaeker/frontend-mentor-solutions/tree/main/apps/challenges/newbie/order-summary-component)        |
-| QR code component              | [Live ↗](https://qr-code-component.ardaeker.com)              | [View Code ↗](https://github.com/ardaeker/frontend-mentor-solutions/tree/main/apps/challenges/newbie/qr-code-component)              |
-| Social links profile           | [Live ↗](https://social-links-profile.ardaeker.com)           | [View Code ↗](https://github.com/ardaeker/frontend-mentor-solutions/tree/main/apps/challenges/newbie/social-links-profile)           |
+| Challenge                      | Solution Code                                                                                                                         |
+| ------------------------------ | ------------------------------------------------------------------------------------------------------------------------------------- |
+| Product preview card component | [View Code ↗](https://github.com/ardaeker/frontend-mentor-solutions/tree/main/apps/challenges/newbie/product-preview-card-component) |
+| Order summary component        | [View Code ↗](https://github.com/ardaeker/frontend-mentor-solutions/tree/main/apps/challenges/newbie/order-summary-component)        |
+| QR code component              | [View Code ↗](https://github.com/ardaeker/frontend-mentor-solutions/tree/main/apps/challenges/newbie/qr-code-component)              |
+| Social links profile           | [View Code ↗](https://github.com/ardaeker/frontend-mentor-solutions/tree/main/apps/challenges/newbie/social-links-profile)           |
 
 ## Getting Started
 
